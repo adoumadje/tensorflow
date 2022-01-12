@@ -1,0 +1,17 @@
+################# pip install ###################
+
+# collect images
+>pip install opencv-python
+>pip install --upgrade pyqt5 lxml
+
+# train
+>pip install wget
+
+
+################ cmd commands ###################
+
+# label images
+>cd {LABELIMG_PATH} && pyrcc5 -o libs/resources.py resources.qrc
+>cd {LABELIMG_PATH} && python labelImg.py
+
+# train 
